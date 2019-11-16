@@ -33,7 +33,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  overflow: scroll;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -149,7 +150,7 @@ img {
   border-style: none; }
 
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: scroll; }
 
 table {
   border-collapse: collapse; }

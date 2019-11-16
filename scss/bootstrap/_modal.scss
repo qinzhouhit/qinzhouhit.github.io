@@ -6,7 +6,7 @@
 
 // Kill the scroll on the body
 .modal-open {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 // Container that the modal scrolls within
@@ -18,7 +18,7 @@
   left: 0;
   z-index: $zindex-modal;
   display: none;
-  overflow: hidden;
+  overflow: scroll;
   // Prevent Chrome on Windows from adding a focus outline. For details, see
   // https://github.com/twbs/bootstrap/pull/10951.
   outline: 0;
@@ -27,7 +27,7 @@
   // See also https://github.com/twbs/bootstrap/issues/17695
 
   .modal-open & {
-    overflow-x: hidden;
+    overflow-x: scroll;
     overflow-y: auto;
   }
 }
