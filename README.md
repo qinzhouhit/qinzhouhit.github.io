@@ -1,2 +1,2 @@
 # qinzhouhit.github.io
-This is just a personal website. 
+Just a personal website. 
